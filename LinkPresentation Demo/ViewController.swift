@@ -1,19 +1,10 @@
-# Link-Presentation
-
-## Link Presentation display any link with Meta data 
-
-Added Some screens here.
-
-![](https://github.com/pawankv89/Link-Presentation/blob/master/images/screen_1.png)
-![](https://github.com/pawankv89/Link-Presentation/blob/master/images/screen_2.png)![](https://github.com/pawankv89/Link-Presentation/blob/master/images/screen_3.png)
-
-
-
-## Usage
-
-#### Controller
-
-```swift
+//
+//  ViewController.swift
+//  LinkPresentation Demo
+//
+//  Created by Pawan kumar on 09/05/20.
+//  Copyright © 2020 Pawan Kumar. All rights reserved.
+//
 
 import UIKit
 import LinkPresentation
@@ -26,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+            
         addURLPreview1()
     }
 
@@ -84,19 +75,3 @@ class ViewController: UIViewController {
 
 }
 
-
-```
-
-## Requirements
-
-### Build
-
-Xcode Version 11.3 (11C29), iOS 13.2.0 SDK
-
-## License
-
-This code is distributed under the terms and conditions of the [MIT license](LICENSE).
-
-## Change-log
-
-A brief summary of each this release can be found in the [CHANGELOG](CHANGELOG.mdown). 
